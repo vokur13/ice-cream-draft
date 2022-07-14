@@ -22,60 +22,65 @@
   </head>
   <header class="header">
     <div class="container header__container">
+
+      <nav class="nav">
+
+        <!-- Logo -->
       <a href="" class="logo">
-        <svg class="logo__thumb" width="199">
+        <svg class="logo__thumb" width="199" height="50">
           <use class="logo__icon" href="./img/svg/symbol-defs.svg#icon-group"></use>
         </svg>
       </a>
-      <nav class="nav">
-
+      
         <!-- Menu open-close button -->
-
         <button
             type="button"
             class="button nav__button"
             aria-expanded="false"
-            aria-controls="site-nav__menu"
+            aria-controls="nav__menu"
             data-menu-button
           >
             <svg width="20" height="20" aria-label="Mobile menu toggle">
-               <use
-                class="nav__icon nav__icon--menu"
-                href=""
-              ></use>
               <use
-                class="nav__icon nav__icon--close"
-                href=""
-              ></use>
+              class="nav__icon nav__icon--menu"
+              href="./img/svg/symbol-defs.svg#icon-burger"
+            ></use>
+              <use
+              class="nav__icon nav__icon--close"
+              href="./img/svg/symbol-defs.svg#icon-close"
+            ></use>
             </svg>
           </button>
+          
+          <div class="nav__menu" id="nav__menu" data-menu>
 
-          <!-- Navigation Menu -->
+            <!-- Buy Now Modal Button -->
+            <button type="button" class="button header__mdl">Buy now</button>
 
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#home" class="nav__link">Home</a>
-          </li>
-           <li class="nav__item">
-            <a href="#about_us" class="nav__link">About us</a>
-          </li>
-           <li class="nav__item">
-            <a href="#how_it_is_made" class="nav__link">How it's made?</a>
-          </li>
-           <li class="nav__item">
-            <a href="#our_products" class="nav__link">Our products</a>
-          </li>
-           <li class="nav__item">
-            <a href="#contacts" class="nav__link">Contact</a>
-          </li>
-        </ul>
+            <!-- Navigation Menu -->
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about_us" class="nav__link">About us</a>
+              </li>
+              <li class="nav__item">
+                <a href="#how_it_is_made" class="nav__link">How it's made?</a>
+              </li>
+              <li class="nav__item">
+                <a href="#our_products" class="nav__link">Our products</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contacts" class="nav__link">Contact</a>
+              </li>
+            </ul>
+            
+          </div>
       </nav>
-
-      <!-- Buy Now Modal Button -->
-
-      <button type="button" class="button header__mdl">Buy now</button>
     </div>
   </header>
     <main></main>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

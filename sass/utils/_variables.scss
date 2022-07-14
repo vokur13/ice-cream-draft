@@ -23,7 +23,13 @@ $breakpoints: (
 
 $colors: (
   'bg-body': #c2e297,
-  // Body bg color,,,
+  // Body bg color
+  'bg-lightest':#FFFFFF, 
+  // Lightest bg color  
+  'accent-prm':#E17992,
+  // Accent premier color
+  'accent-mnr': #D41443,
+  // Accent minor color
 );
 
 // colors
