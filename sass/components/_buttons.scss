@@ -4,6 +4,6 @@
   line-height: calc(30 / 16);
 
   @include centeredFlex();
-  color: getColor('bg-prime');
-  background-color: getColor('accent');
+  // color: getColor('bg-prime');
+  // background-color: getColor('accent');
 }
