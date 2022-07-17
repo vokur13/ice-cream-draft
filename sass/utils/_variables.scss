@@ -1,56 +1,45 @@
-// Cubic-Bezier
-$timing-func: cubic-bezier(0.4, 0, 0.2, 1);
+// Main Colors
+$color-accent: #d41443;
+$color-accent-dark: mix(black, $color-accent, 15%); // Dark accent color
 
-// Breakpoints
+$color-secondary-darker: #e17992;
+$color-secondary-dark: #fea5bb;
+$color-secondary: #ffa5ba;
+$color-secondary-light: #ffb8ca;
+$color-secondary-lighter: #fff5f6;
 
-$mobile: 320px;
-$tablet: 767px;
-$desktop: 768px;
+$color-coffee: #f0d1a5;
+$color-milkshakes: #c2e297;
 
-$breakpoints: (
-  'mobile': (
-    max-width: $mobile,
-  ),
-  'tablet': (
-    max-width: $tablet,
-  ),
-  'desktop': (
-    min-width: $desktop,
-  ),
-) !default;
+// Texts
+$color-text: #000000;
+$color-text-light: #907e82;
+$color-text-lighter: #ffffff;
 
-// USER VARIABLES SECTION
+// Borders
+$color-border: #e1e1e1;
+$color-border-secondary: #e18298;
 
-$colors: (
-  'bg-body': #c2e297,
-  // Body bg color
-  'bg-lightest':#FFFFFF, 
-  // Lightest bg color  
-  'accent-prm':#E17992,
-  // Accent premier color
-  'accent-mnr': #D41443,
-  // Accent minor color
-);
+// Backgrounds
+$bg-body: #ffffff;
 
-// colors
-// $color-accent: #28a745; // Accent Color
-// $color-accent-dark: mix(black, $color-accent, 15%); // Dark accent color
-// $color-secondary: #0284d0; // Secondary Color
-// $color-secondary-dark: mix(black, $color-secondary, 15%); // Dark accent color
-// $color-text: #333333; // Text Color
-// $color-text-light: #808080; // Light text color
-// $color-text-lightest: #ffffff; // Lightest text color
+$bg-customer-sliders: #fafafa;
+$bg-customer-markers: #d9d9d9;
 
-// background colors
-// $color-bg-light: #f4f4f4; // Light bg color
-// $color-bg-lightest: #ffffff; // Lightest bg color
-// $bg-body: #c2e297; // Body bg color
+$bg-button: $color-accent;
+$bg-button-active: $color-accent-dark;
+$bg-button-secondary: #ffffff;
+$bg-button-secondary-active: #ecebeb;
 
-// typography
-// $font-stack: 'Open Sans', sans-serif; // User Font Family
-// $font-size: 18px; // Body Font Size
-// $line-height: 1.55; // Document Line Height
+$bg-customer-reviews-dots: #c7133e;
+$bg-customer-reviews-house: #d31342;
+
+// Typography
+$font-stack: 'DM Sans', sans-serif; // User Font Family
+$font-stack-secondary: 'Titan One', cursive; // Headers Font Family
+$font-size: 16px; // Body Font Size
+$line-height: 1.76; // Document Line Height
 
 // Transitions
-// $transition-duration: 250ms;
-// $transition-animation: cubic-bezier(0.4, 0, 0.2, 1);
+$transition-duration: 250ms;
+$transition-animation: cubic-bezier(0.4, 0, 0.2, 1);

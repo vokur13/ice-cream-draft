@@ -1,9 +1,11 @@
 // utils
 
+@import './utils/classes';
 @import './utils/variables';
 @import './utils/functions';
 @import './utils/mixins';
 @import './utils/helpers';
+@import './utils/placeholders';
 
 //  base
 
@@ -12,8 +14,12 @@
 
 // components
 
+@import './components/container';
+@import './components/animate-menu';
+@import './components/title';
 @import './components/backdrop';
 @import './components/buttons';
+@import './components/btn';
 @import './components/carousel';
 @import './components/cover';
 @import './components/dropdown';
