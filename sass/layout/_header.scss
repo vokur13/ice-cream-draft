@@ -150,7 +150,13 @@
     }
   }
 
-  // .nav__button
+  &.__thumb {
+    outline: 1px solid blue;
+    background-color: red;
+    @include mq(mobile) {
+      display: block;
+    }
+  }
 
   &__button {
     background-color: transparent;

@@ -36,9 +36,9 @@
         <use class="logo__icon" href="/img/svg/icons.svg#logo"></use>
       </svg>
     </a>
-    
+
       <!-- Menu open-close button -->
-      <button
+        <button
           type="button"
           class="nav__button"
           aria-expanded="false"
@@ -57,18 +57,21 @@
           </svg>
         </button>
 
-        <div class="nav__menu" id="nav__menu" data-menu>
+        <div class="nav__thumb">
 
           <!-- Buy Now Modal Button -->
-          <button type="button" class="btn header__mdl">
+
+          <button type="button" class="btn header__mdl is-hidden" data-modal-button>
             <span class="header__mdl--env">Buy now</span>
-          <span class="header__mdl--thmb">
-            <svg class="header__mdl--arrow" width="6" height="8">
-              <use href="/img/svg/icons.svg#arrow-right"></use>
-            </svg>
-          </span>
+            <span class="header__mdl--thmb">
+              <svg class="header__mdl--arrow" width="6" height="8">
+                <use href="/img/svg/icons.svg#arrow-right"></use>
+              </svg>
+            </span>
           </button>
 
+        <div class="nav__menu" id="nav__menu" data-menu>
+          
           <!-- Navigation Menu -->
           <ul class="nav__list">
             <li class="nav__item">
@@ -89,24 +92,18 @@
           </ul>
           
         </div>
-        
+
+        </div>
+
     </nav>
 
-    <!-- Buy Now Modal Button Tablet-->
-    <!-- <button type="button" class="btn header__mdl--tablet" data-mdl-btn>
-      <span class="header__mdl--env">Buy now</span>
-    <span class="header__mdl--thmb">
-      <svg class="header__mdl--arrow" width="6" height="8">
-        <use href="/src/images/icons.svg#arrow-right"></use>
-      </svg>
-    </span>
-    </button> -->
-
   </div>
+
 </header>
 
     <main>
       <a href="./animate-menu.html">Animate menu</a>
+
     </main>
     <script src="./js/header.js" type="module"></script>
     <script src="./js/mobile-menu.js" type="module"></script>
